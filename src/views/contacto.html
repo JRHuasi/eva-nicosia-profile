@@ -1,0 +1,57 @@
+<div class="bloque" id="contacto">
+  <h2>Contacto</h2>
+  <p>Puede contactarme a través de este formulario</p>
+  <hr>
+  <form action="../php/enviarConsulta.php" method="post" id="formContacto">
+    <div class="row">
+      <div class="col-6">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Su nombre</label>
+          <input type="email" id="nombre" class="form-control">
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" class="form-control">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+        <div class="mb-3">
+          <label for="empresa" class="form-label">Empresa</label>
+          <input type="text" id="empresa" class="form-control">
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="mb-3">
+          <label for="celular" class="form-label">Celular</label>
+          <input type="phone" id="celular" class="form-control">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="mb-3">
+          <label for="consulta" class="form-label">Mensaje</label>
+          <textarea class="form-control" name="consulta" id="consulta" cols="30" rows="3" required></textarea>
+          <p class="helper"><i>* datos obligatorios</i>
+          </p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="mb-3">
+          <button type="submit" class="btn btn-dark boton enviar" id="enviarConsulta">Enviar consulta</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<div id="boton">
+
+</div>
+</form>
+</div>
