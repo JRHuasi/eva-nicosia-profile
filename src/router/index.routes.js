@@ -11,8 +11,8 @@ export const router = (route) => {
   contenedor.innerHTML = "";
 
   switch (route) {
-    case "#/home":
-      contenedor.appendChild(pages.home());
+    case "#/":
+      contenedor.appendChild(pages.personal());
       break;
     case "#/personal":
       contenedor.appendChild(pages.personal());

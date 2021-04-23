@@ -28,9 +28,9 @@ ul#datos-personales {
 }
 
 #contenedor {
-  width: 75%;
-  margin-left: 20px;
-  padding: 50px;
+  width: 95%;
+  margin-left: 10px;
+  padding: 50px 10px;
 
   hr {
     background-color: black;
@@ -73,4 +73,13 @@ ul {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   text-align: center;
+}
+
+@media (min-width: 800px) {
+  #contenedor {
+    width: 75%;
+    margin-left: 20px;
+    padding: 50px;
+
+  }
 }
