@@ -35,6 +35,9 @@ export const router = (route) => {
     case "#/contacto":
       contenedor.appendChild(pages.contacto());
       break;
+    case "#/confirmacion":
+      contenedor.appendChild(pages.confirmacion());
+      break;
     case "#/null":
       break;
 

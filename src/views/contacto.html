@@ -4,31 +4,31 @@
   <hr>
   <form action="../php/enviarConsulta.php" method="post" id="formContacto">
     <div class="row">
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <div class="mb-3">
           <label for="nombre" class="form-label">Su nombre</label>
-          <input type="email" id="nombre" class="form-control">
+          <input type="email" id="nombre" name="nombre" class="form-control">
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <div class="mb-3">
           <label for="email" class="form-label">Email</label>
-          <input type="email" id="email" class="form-control">
+          <input type="email" id="email" name="email" class="form-control">
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <div class="mb-3">
           <label for="empresa" class="form-label">Empresa</label>
-          <input type="text" id="empresa" class="form-control">
+          <input type="text" id="empresa" name="empresa" class="form-control">
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <div class="mb-3">
           <label for="celular" class="form-label">Celular</label>
-          <input type="phone" id="celular" class="form-control">
+          <input type="phone" id="celular" name="celular" class="form-control">
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@
           </p>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <div class="mb-3">
           <button type="submit" class="btn btn-dark boton enviar" id="enviarConsulta">Enviar consulta</button>
         </div>
